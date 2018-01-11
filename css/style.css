@@ -168,6 +168,7 @@ header .highlight, header .current a
 	width:30%;
 	padding:10px;
 	text-align: center;
+
 }
 
 /*Sidebar*/
@@ -213,4 +214,44 @@ footer
 	text-align: center;
 }
 
+img
+{
+	max-width: 100%;
+	/*height: auto!important;*/
+}
 /*Media Query*/
+
+@media(max-width: 768px)
+{
+header #branding,
+header nav,
+header nav li,
+#newsletter,
+#newletter form,
+#boxes .box,
+article#main-col,
+aside#sidebar
+{
+	float:none;
+	text-align: center;
+	width: 100%;
+}
+header
+{
+	padding-bottom: 20px;
+}
+#showcase h1
+{
+	margin-top: 40px;
+}
+#newsletter button, .quote button
+{
+	display: block;
+	width: 100%;
+}
+#newsletter form input[type="email"], .quote input, .quote textarea
+{
+	width: 100%;
+	margin-bottom: 5px;
+}
+}
