@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Acme Web Designing | About</title>
+	<title>Spark | Services</title>
 	<link rel="stylesheet" href="./css/style.css">
 	<meta name="viewport" content="width=device-width">
 	<meta name="author" content="binayak shankar">
@@ -16,8 +16,8 @@
 		<nav>
 			<ul>
 				<li ><a href="index.html">Home</a></li>
-				<li class="current"><a href="about.html">About</a></li>
-				<li ><a href="services.html">Services</a></li>
+				<li ><a href="about.html">About</a></li>
+				<li class="current"><a href="services.html">Services</a></li>
 				<li ><a href="contact.html">Contact Us</a></li>
 			</ul>
 		</nav>
@@ -36,26 +36,45 @@
 <section id="main">
 	<div class="container">
 	<article id="main-col">
-		<h1 class="page-title">About Us</h1>
-		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
-	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+		<h1 class="page-title">Services</h1>
+		<ul id="services">
+			<li>
+				<h3>Quote Collection</h3>
+				<p>Duration: Instant/On Notice</p>
+				<p>Price: Free</p>
+			</li>
+			<li>
+				<h3>Quote Publication</h3>
+				<p>Duration: 2 Weeks</p>
+				<p>Price: $10 Per Listing</p>
+			</li>
+			<li>
+				<h3>Quote Demonstration</h3>
+				<p>Duration: 1 Day</p>
+				<p>Price: Free</p>
+			</li>
+		</ul>
 	</article>
 	<aside id="sidebar">
 	<div class="dark">
-	<h3>Life changing Quotes</h3>
-	<p>Your personal life, your professional life, and your creative life are all intertwined. I went through a few very difficult years where I felt like a failure.Age appears to be best in four things; old wood best to burn, old wine to drink, old friends to trust, and old authors to read.</p>
+	<h3>List Your Quote Today !</h3>
+	<form class="quote">
+		<div>
+			<label>Name:</label><br>
+			<input type="text" placeholder="Enter Name">
+		</div>
+		<div>
+			<label>EMail:</label><br>
+			<input type="email" placeholder="Enter Email">
+		</div>
+		<div>
+			<label>Quote:</label><br>
+			<textarea placeholder="Original Quote Goes Here.."></textarea>
+		</div>
+		<div>
+			<button class="btn" type="submit">List My Quote</button>
+		</div>
+	</form>
 	</div>
 	</aside>
 </div>
